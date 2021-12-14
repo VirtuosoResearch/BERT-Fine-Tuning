@@ -1,6 +1,6 @@
 ## A primer of transformer models and fine-tuning on language tasks  
 
-###Abstract  
+### Abstract  
 Transformer-based BERT Language Models have become very popular recently 
 and have shown outstanding results on some popular Natural Language 
 Problems. However, there is very little understanding of what makes 
@@ -13,7 +13,7 @@ work on some famous datasets like Movie Re- views, Civil Comments,
 and the MultiNLI dataset. We show how such robust algorithms for training 
 can improve the performance of the BERT on worst group accuracies.
 
-###Prerequisites
+### Prerequisites
 python 3.6.8  
 matplotlib 3.0.3  
 numpy 1.16.2  
@@ -25,9 +25,9 @@ torchvision 0.5.0
 tqdm 4.32.2  
 NVIDIA apex
 
-###Datasets
+### Datasets
 
-####Movie Review dataset (https://ai.stanford.edu/~amaas/data/sentiment/) :  
+#### Movie Review dataset (https://ai.stanford.edu/~amaas/data/sentiment/) :  
 We use movie review dataset to do a sentiment analysis and predict the nature of the review
 given the comment. A review could be positive or negative.  
 For our code the data will be in the following format :  
@@ -56,7 +56,7 @@ testing data.
 To predict a single random entry or a movie comment in the dataset.  
 
 
-####Civil Comments dataset (https://www.tensorflow.org/datasets/catalog/civil_comments) 
+#### Civil Comments dataset (https://www.tensorflow.org/datasets/catalog/civil_comments) 
 We use Civil Comments dataset to identify the Subgroup robustness of the BERT model in 
 different toxic comments to identify which comments are offensive to the various subgroups.
 Detailed description is given in the project document.
@@ -85,7 +85,7 @@ c. BNSP_AUC
 d. Final overall AUC  
 This will save the model in the results folder.
 
-####MultiNLI dataset
+#### MultiNLI dataset
 Here we have pairs of sentences and given the first sentence, we have
 to predict that second sentence is in support of first sentence, neutral with the first sentence or
 contradiction with the first sentence. 
